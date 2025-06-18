@@ -1,0 +1,18 @@
+# 웹 프레임워크 및 서버
+fastapi>=0.100.0  # FastAPI 웹 프레임워크
+uvicorn[standard]>=0.23.0  # ASGI 서버
+
+# 데이터베이스
+sqlalchemy>=2.0.0  # ORM (Object-Relational Mapping)
+pymysql>=1.1.0  # MySQL Python 드라이버
+cryptography>=41.0.0  # MySQL 암호화 지원
+
+# 데이터 검증 및 직렬화
+pydantic>=2.0.0  # 데이터 검증
+python-multipart>=0.0.6  # 멀티파트 폼 데이터 처리
+
+# 유틸리티
+python-dotenv>=1.0.0  # 환경변수 관리
+
+# AI/LLM
+google-generativeai>=0.3.0  # Gemini AI API
